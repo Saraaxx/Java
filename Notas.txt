@@ -1,0 +1,109 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        System.out.print("Escribe una palabra: ");
+        String texto = teclado.nextLine();
+        
+        if (texto.equals("hola")) {
+            System.out.println("Hola Mundo");
+        } else  {
+            System.out.println("Memerezco un 5");
+        }
+        
+      
+    }
+}
+
+
+
+
+INGRESAR UN NUMERO
+
+FORMA 1
+
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        System.out.print("Ingresa un numero negativo para salir o uno positivo para seguir");
+        int numero = teclado.nextInt();
+        while(numeri >=0){
+             System.out.print("Ingresa un numero negativo para salir o uno positivo para seguir");
+              numero = teclado.nextInt();
+
+
+
+
+Forma 2
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        System.out.print("Escribe un numero: ");
+        int x; 
+        
+        do {
+            x= teclado.nextInt();
+             if(x > 0){
+                 System.out.println("Numero positivo");
+                 
+             }
+         else  {
+             System.out.println("Fin del programa");
+            
+        }
+        }while (x >=0);
+      
+    }
+}
+
+
+
+
+QUE EVALUE SI NUNMERO ES POSITIVO O NEGATIVO
+
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        System.out.print("Escribe un numero: ");
+        int x = teclado.nextInt();
+        if(x >0){
+            System.out.print("El numero es positivo:");
+        }
+        
+        while (x >=0) {
+            x= teclado.nextInt();
+             if(x >=0){
+                 System.out.println("Numero positivo");
+                 
+             }
+         else  {
+             System.out.println("Numero negativo");
+            
+        }
+        }while (x >=0);
+      
+    }
+}
+
+
+
+
