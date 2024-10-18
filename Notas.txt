@@ -22,6 +22,7 @@ class HelloWorld {
 
 
 
+
 INGRESAR UN NUMERO
 
 FORMA 1
@@ -106,4 +107,44 @@ class HelloWorld {
 
 
 
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.Scanner;
 
+class HelloWorld {
+    public static void main(String[] args) {
+        
+        Scanner teclado = new Scanner(System.in);
+        
+        int x;
+        do{
+            System.out.print("Escribe un numero: ");
+             x = teclado.nextInt();
+              if(x >=0){
+            System.out.println("El numero es positivo");
+        }
+        
+        else {
+                 System.out.println("Fin del programa");
+            }
+        }while (x >=0);    
+        
+    }
+}
+
+FOR
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        
+        System.out.print("Escribe el numero de veces que se repite: ");
+        int x = teclado.nextInt();
+        for (int i = 1; i <= x; i++){
+            System.out.println(i);
+        }
+    }
+}
